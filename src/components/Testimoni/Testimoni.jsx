@@ -8,8 +8,6 @@ import client5 from '../../assets/img/team/team_04.png'
 import client6 from '../../assets/img/team/team_03.png'
 import client7 from '../../assets/img/team/team_02.png'
 import client8 from '../../assets/img/team/team_01.png'
-import client9 from '../../assets/img/team/team_01.png'
-import client10 from '../../assets/img/team/team_01.png'
 
 
 // Contoh import gambar asli nanti:

@@ -5,7 +5,6 @@ import {
   FaGithub,
   FaInstagram,
   FaWhatsapp,
-  FaBriefcase,
 } from "react-icons/fa";
 import { SiFiverr, SiUpwork, SiFreelancer } from "react-icons/si";
 import "./Contact.css";
