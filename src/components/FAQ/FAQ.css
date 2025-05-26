@@ -1,0 +1,64 @@
+.main-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 20px auto;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container-faq {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-faq {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  user-select: none;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.card-faq:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question {
+  margin: 0;
+  font-weight: 600;
+}
+
+.arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+  user-select: none;
+}
+
+.arrow.rotate {
+  transform: rotate(90deg);
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #dcdcdc;
+}
+
+.card-faq.open {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
